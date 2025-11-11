@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // Versión array
     fun getAdapter(): ArrayAdapter<String> {
         val ciudades = arrayOf("Parla", "Pinto", "Valdemoro")
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, ciudades)
